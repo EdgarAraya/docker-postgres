@@ -22,3 +22,8 @@ Upon entering pgAdmin:
   - Host name/address: pg_container
   - Username: root
   - Password: root
+
+## Notes
+
+- If you have Postgres installed on your machine, remember to stop running the service, otherwise the Dockerized database will not run.
+  - In Windows, open the Task Manager, go to the Services tab, and right-click on the Postgres service. Then select "Stop".
